@@ -19,3 +19,7 @@ public:
         return dp[len1][len2];
     }
 };
+
+/*
+dp[i][j] is the minimum cost to make the 0~i in word1 and 0~j in word2 the same 
+*/
